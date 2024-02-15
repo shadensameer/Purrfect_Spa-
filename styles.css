@@ -1,0 +1,173 @@
+/* Global styles */
+body {
+  background-color: #fdf0d1;
+  margin: 8px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 900;
+}
+
+/* Header styles */
+#header-container {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  padding: 5px 15px;
+}
+
+#header-container img {
+  width: auto;
+  height: 300px;
+  margin: 0;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu li {
+  margin-left: 15px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  border: #ad3c87 solid;
+  border-radius: 3px;
+  padding: 8px 12px;
+  background-color: #d291bc;
+  font-weight: 900;
+}
+
+.menu a:hover {
+  background-color: white;
+  color: gray;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  #header-container {
+    padding: 15px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #header-container img {
+    height: 200px;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .menu {
+    margin-top: 0;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .menu li {
+    margin-left: 10px;
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 430px) {
+  #header-container img {
+    height: 200px;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .menu {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu li {
+    margin-left: 0;
+    margin-bottom: 25px;
+  }
+}
+
+/* About Us Page Styles */
+#aboutUsH1 {
+  margin-top: 0;
+  border: outset darkmagenta;
+  background-color: #c378aa;
+  color: white;
+  border-radius: 10px;
+}
+
+h2 {
+  font-size: xx-large;
+}
+
+h3 {
+  color: #333;
+  font-size: smaller;
+}
+
+.ButtonDiv {
+  display: flex;
+  justify-content: center;
+}
+
+#BookNow {
+  padding: 20px;
+  font-size: x-large;
+}
+
+/* Image Styles */
+div img {
+  width: 240px;
+  display: block;
+  margin: 0 auto;
+}
+
+.container {
+  text-align: center;
+}
+
+/* Button Styles */
+button {
+  margin: 20px;
+  font-size: larger;
+  font-weight: bolder;
+  color: white;
+  background-color: #d291bc;
+  border: #ad3c87 solid;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: #bc7c97;
+}
+
+/* Link Styles */
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Team Image Styles */
+#team {
+  float: right;
+}
+
+/* Contact Us Page Styles */
+#CallCenterImg {
+  width: 350px;
+  height: 300px;
+}
+
+#CallImg {
+  display: flex;
+  justify-content: center;
+}
+
+/*Footer Styles*/
+footer a {
+  text-decoration: underline;
+  color: blue;
+}

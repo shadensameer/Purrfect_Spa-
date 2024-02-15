@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <!-- Button for navigating back to home page -->
+    <button><a href="./index.html">Back</a></button>
+    <!-- Container for logo and page heading -->
+    <div class="container">
+      <img src="./logo.png" alt="Logo" />
+      <h1 id="aboutUsH1">Contact Us</h1>
+    </div>
+    <!-- Image of Call Center -->
+    <div id="CallImg">
+      <img src="./Call Center.jpg" alt="Call Center" id="CallCenterImg" />
+    </div>
+
+    <!-- Section for contacting Purrfect Spa -->
+    <h1>Want to book a grooming session for your pet?</h1>
+    <h3>Here is how to contact us:</h3>
+    <h4>• Facebook: Purrfect_Spa_Official</h4>
+    <h4>• E-mail: Purrfect.Spa2019@Outlook.com</h4>
+    <h4>• Phone Numbers: (555) 987-6543 // (555) 888-9999 // (555) 876-5432</h4>
+    <h3>
+      You can chat with us through WhatsApp or call us via our phone number.
+    </h3>
+
+    <!-- Section for suggestions, reports, or questions -->
+    <h1>Want to suggest, report, or ask a question?</h1>
+    Do it here: <input type="text" id="userName" />
+    <button onclick="formValid()">Submit</button>
+    <h3 id="error"></h3>
+
+    <!-- Section for buying products from the shop -->
+    <h1>Want to buy a product from our shop?</h1>
+    <h4>Fill in this form:</h4>
+    Name:<input type="text" id="userName2" />
+    <button onclick="formValid2()">Submit</button>
+
+    <h3 id="error1"></h3>
+
+    Address:<input type="text" id="userName3" />
+    <button onclick="formValid3()">Submit</button>
+
+    <h3 id="error3"></h3>
+
+    Date you want it to arrive:<input type="date" id="userName4" />
+    <button onclick="formValid4()">Submit</button>
+    <h3 id="error4"></h3>
+
+    E-mail:<input type="text" id="userName5" />
+    <button onclick="formValid5()">Submit</button>
+
+    <h3 id="error5"></h3>
+
+    Product Name:<input type="text" id="userName6" />
+    <button onclick="formValid6()">Submit</button>
+
+    <h3 id="error6"></h3>
+
+    <!-- Confirmation message -->
+    <h1>
+      After you fill this form and clicked all the submit buttons you will get a
+      confirmation email with the order.
+    </h1>
+
+    <!-- Footer section with copyright information and navigation links -->
+    <footer>
+      <hr />
+      <p>
+        &copy; 2024 Purrfect Spa Company. <br />
+        All rights reserved.
+      </p>
+      <a href="./index.html">Home</a>
+      <a href="./about.html">About</a>
+      <a href="./contactUs.html">ContactUs</a>
+      <a href="./products.html">Products</a>
+    </footer>
+    <br />
+
+    <!-- Link to JavaScript file -->
+    <script src="./main.js"></script>
+  </body>
+</html>
